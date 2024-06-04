@@ -17,19 +17,19 @@
     <header>
       <div class="logo"><span>G</span>agan.</div>
       <ul class="navlist">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" style="--i: 1" ;>Home</a></li>
+        <li><a href="#about" style="--i: 2">About</a></li>
+        <li><a href="#services" style="--i: 3">Services</a></li>
+        <li><a href="#skills" style="--i: 4">Skills</a></li>
+        <li><a href="#portfolio" style="--i: 5">Portfolio</a></li>
+        <li><a href="#contact" style="--i: 6">Contact</a></li>
       </ul>
       <div id="menu-icon" class="bx bx-menu"></div>
     </header>
 
     <!-- home section -->
     <section id="home" class="home">
-      <div class="home-content">
+      <div class="home-content scroll-scale">
         <h1>Hi! I'm Gagan Tayal</h1>
         <div class="change-text">
           <h3>And I'm</h3>
@@ -69,9 +69,9 @@
         </div>
       </div>
 
-      <div class="home-image">
+      <div class="home-image scroll-scale">
         <div class="img-box">
-          <img src="/images--main/man3.png" alt="" />
+          <img src="/images--main/man.png" alt="" />
         </div>
 
         <div class="liquid-shape">
@@ -153,7 +153,7 @@
     <!-- about section -->
 
     <section id="about" class="about">
-      <div class="img-about">
+      <div class="img-about scroll-scale">
         <img src="/images--main/about-me-pic2.png" alt="" />
         <div class="info-about1">
           <span>10+</span>
@@ -169,7 +169,7 @@
         </div>
       </div>
 
-      <div class="about-content">
+      <div class="about-content scroll-scale">
         <span>Let me introduce myself</span>
         <h2>About Me</h2>
         <h3>A Story of good</h3>
@@ -188,12 +188,12 @@
 
     <!-- services -->
     <section id="services" class="services">
-      <div class="main-text">
+      <div class="main-text scroll-scale">
         <span>wha i will do for you</span>
         <h2>Our Services</h2>
       </div>
 
-      <div class="section-services">
+      <div class="section-services scroll-scale">
         <div class="service-box">
           <i class="bx bxs-layer service-icon"></i>
           <h3>Graphic Designer</h3>
@@ -241,13 +241,13 @@
     <!-- skill -->
 
     <section id="skills" class="skills">
-      <div class="main-text">
+      <div class="main-text scroll-scale">
         <span>technical and proffessional</span>
         <h2>My Skills</h2>
       </div>
 
       <div class="skill-main">
-        <div class="skill-left">
+        <div class="skill-left scroll-scale">
           <h3>Techncal Skills</h3>
           <div class="skill-bar">
             <div class="info">
@@ -290,7 +290,7 @@
           </div>
         </div>
 
-        <div class="skill-right">
+        <div class="skill-right scroll-scale">
           <h3>Professional Skills</h3>
           <div class="professional">
             <div class="box">
@@ -332,21 +332,21 @@
     <!-- Skill Section -->
 
     <section id=" portfolio" class="portfolio">
-      <div class="main-text">
+      <div class="main-text scroll-scale">
         <span>What i will do for you</span>
         <h2>Latest Project</h2>
       </div>
 
       <div class="containeer">
-        <div class="filter-button">
-          <button class="btn">All</button>
-          <button class="btn">Product</button>
-          <button class="btn">Interacting</button>
-          <button class="btn">Web App</button>
+        <div class="filter-buttons scroll-scale">
+          <button class="button" data-filter="all">All</button>
+          <button class="button" data-filter=".product">Product</button>
+          <button class="button" data-filter=".inter">Interacting</button>
+          <button class="button" data-filter=".web">Web App</button>
         </div>
 
-        <div class="portfolio-gallery">
-          <div class="port-box">
+        <div class="portfolio-gallery scroll-scale">
+          <div class="port-box mix product">
             <div class="port-image">
               <img src="/images--main/1.jpg" alt="" />
             </div>
@@ -360,7 +360,7 @@
             </div>
           </div>
 
-          <div class="port-box">
+          <div class="port-box mix product">
             <div class="port-image">
               <img src="/images--main/2.jpg" alt="" />
             </div>
@@ -374,7 +374,7 @@
             </div>
           </div>
 
-          <div class="port-box">
+          <div class="port-box mix inter">
             <div class="port-image">
               <img src="/images--main/3.jpg" alt="" />
             </div>
@@ -388,7 +388,7 @@
             </div>
           </div>
 
-          <div class="port-box">
+          <div class="port-box mix inter">
             <div class="port-image">
               <img src="/images--main/4.jpg" alt="" />
             </div>
@@ -402,7 +402,7 @@
             </div>
           </div>
 
-          <div class="port-box">
+          <div class="port-box mix inter">
             <div class="port-image">
               <img src="/images--main/5.jpg" alt="" />
             </div>
@@ -416,7 +416,7 @@
             </div>
           </div>
 
-          <div class="port-box">
+          <div class="port-box mix web">
             <div class="port-image">
               <img src="/images--main/6.jpg" alt="" />
             </div>
@@ -433,6 +433,42 @@
       </div>
     </section>
 
+    <!-- contact section -->
+
+    <section id="contact" class="contact">
+      <div class="main-text">
+        <span>ask me question</span>
+        <h2>Contact Me</h2>
+      </div>
+
+      <form action="#" class="scroll-scale">
+        <input type="text" placeholder="Your Name" />
+        <input type="text" placeholder="Your Email" />
+        <input type="text" placeholder="Your Address" />
+        <input type="Number" placeholder="Your Phone Number" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Messgae"
+        ></textarea>
+        <div class="btn-box formBtn">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+      <p class="scroll-scale">
+        Copyright &copy: 2024 by GaganCoder || All Right Reserve
+      </p>
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
